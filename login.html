@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | eduCare</title>
+    <link rel="shortcut icon" href="img/fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+<div id="main">
+    <div class="container">
+        <div class="wrapper">
+                <!-- tab links -->
+            <ul class="tabs text-center mb-5">
+                <li class="tab-link current" data-tab="tab-1">Sign In</li>
+                <li class="tab-link" data-tab="tab-2">Sign Up</li>
+            </ul>   
+            <div id="formContent">
+                    <!-- sign in content -->
+                <div id="tab-1" class="tab-content current">
+                    <div class="logo"><img src="img/logo.svg" alt="Logo" width="180px"></div>
+                    <h2 class="my-4 text-primary">Sign In</h2>
+                    <div class="form my-3">
+                        <i class="bi bi-envelope"></i>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form my-3">
+                        <i class="bi bi-key"></i>
+                        <input type="password" name="pwd" placeholder="Password" required>
+                    </div>
+                    <input type="checkbox" name="checkbox" id="acceptAll"> <span>Remember Me</span>
+                    <a href="index.html"><input type="submit" value="Sign In" class="submitBtn"></a>
+                </div>
+
+                    <!-- sign up content -->
+                <div id="tab-2" class="tab-content">
+                    <div class="logo"><img src="img/logo.svg" alt="Logo" width="180px"></div>
+                    <h2 class="my-4 text-primary">Sign Up</h2>
+                    <div class="form my-3">
+                        <i class="bi bi-pencil"></i>
+                        <input type="text" name="fName" placeholder="First Name" required>
+                    </div>
+                    <div class="form my-3">
+                        <i class="bi bi-pencil"></i>
+                        <input type="text" name="lName" placeholder="Last Name" required>
+                    </div>
+                    <div class="form my-3">
+                        <i class="bi bi-envelope"></i>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form my-3">
+                        <i class="bi bi-telephone"></i>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form my-3">
+                        <i class="bi bi-postcard"></i>
+                        <input type="text" name="nid" placeholder="NID Number" required>
+                    </div>
+                    <div class="form my-3">
+                        <i class="bi bi-key"></i>
+                        <input type="password" name="pwd" placeholder="Password" required>
+                    </div>
+                    <div class="form my-3">
+                        <i class="bi bi-key"></i>
+                        <input type="password" name="confPwd" placeholder="Confirm Password" required>
+                    </div>
+                    <input type="checkbox" name="checkbox" id="acceptAll"> <span>I accept the Terms of Use and Privacy Policy</span>
+                    <a href="index.html"><input type="submit" value="Sign Up" class="submitBtn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+            <!--  js code strat from here  -->
+
+<script>
+
+        // function of tab menu
+$(document).ready(function(){
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+})
+
+</script>

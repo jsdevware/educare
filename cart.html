@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | eduCare</title>
+    <link rel="shortcut icon" href="img/fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+                <!-- topbar -->
+<div id="topbar" class="topbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <ul>
+                    <li><i class="bi bi-telephone-fill"></i> +1 212-226-3126</li>
+                    <li><i class="bi bi-geo-alt-fill"></i> 457 Mott Street,NY 10013</li>
+                    <li><i class="bi bi-clock-fill"></i> Mon - Sat 8.00 - 18.00</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 text-end social">
+                <a target="_blank" href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a target="_blank" href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                <a target="_blank" href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a target="_blank" href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- header section -->
+<header>
+    <div id="navbar" class="navbar bg-white border-bottom">
+        <div class="container">
+            <a href="index.html" class="logo" width="150px"> <img src="img/logo.svg" alt="Logo" width="100%"> </a>
+            <ul class="menuList me-auto">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Courses</a>
+                    <ul class="subMenu">
+                        <li><a href="course-details.html">Course 1</a></li>
+                        <li><a href="course-details.html">Course 2</a></li>
+                        <li><a href="course-details.html">Course 3</a></li>
+                        <li><a href="course-details.html">Course 4</a></li>
+                        <li><a href="course-details.html">Course 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Pages</a>
+                    <ul class="subMenu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cart.html">cart</a></li>
+                        <li><a href="404error.html">Page Error</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="zoom.html">Zoom Meetings</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="course-details.html">Course Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Shop</a>
+                    <ul class="subMenu">
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="shop.html">Product Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-items ms-auto">
+                <div class="item">
+                    <button onclick="document.querySelector('.searchBar').style.display='block'"> <i class="bi bi-search"></i> </button>
+                    <div class="searchBar">
+                        <div class="form">
+                            <span onclick="document.querySelector('.searchBar').style.display='none'"><i class="bi bi-x-square"></i></span>
+                            <input type="search" name="search" placeholder="Search">
+                            <button><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item cart">
+                    <a href="cart.html" title="Cart" class="position-relative">
+                        <i class="bi bi-cart4"></i>
+                        <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-primary">0</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="form">
+                        <input type="search" name="search" placeholder="Search">
+                        <button><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+                <div class="item"><a href="login.html" title="Login"><i class="bi bi-person-fill"></i></a></div>
+            </div>
+            <button id="openNav">
+                <div id="ham" stat="open" class="hamburger-in">
+                    <div id="ham1" class="ham1"></div>
+                    <div id="ham2" class="ham2"></div>
+                    <div id="ham3" class="ham3"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+</header>
+
+                    <!-- banner section -->
+<div id="banner">
+    <h1><b>Cart</b></h1>
+    <h6><a href="index.html">Home</a> / <span>Cart</span></h6>
+</div>
+
+                    <!-- main section -->
+<section id="main">
+    <div class="container">
+        <div class="cart-wrapper mb-4">
+            <div class="p-3">
+                <p><i class="bi bi-bag-fill me-2"></i> Your cart is currently empty.</p>
+            </div>
+        </div>
+        <a href="shop.html" class="btn btn-primary">Return to Shop</a>
+    </div>
+</section>
+
+                    <!-- footer section -->
+<footer class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 p-3">
+                <img src="img/logo.svg" alt="Logo" width="150px" class="mb-4">
+                <p>Theodore Lowe, Ap #867-859 Sit Rd, Azusa New York</p>
+                <p class="fs-5"><i class="bi bi-telephone-fill"></i> <a href="tel:+(702) 123-1478">+(702) 123-1478</a></p>
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:info@company.com">info@company.com</a></p>
+                <div class="social mt-4">
+                    <a target="_blank" href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a target="_blank" href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a target="_blank" href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a target="_blank" href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 links p-3">
+                <h4>Company</h4>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">About Us</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Resource Center</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Careers</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Instructor</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Become A Teacher</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 links p-3">
+                <h4>Categories</h4>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">All Courses</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Digital Marketing</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Design & Branding</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Storytelling & Voice Over</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">News & Blogs</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 subscribe p-3">
+                <h4>Get in Touch</h4>
+                <p>Cum quisquam facere iure architecto! A aspernatur quod suscipit ipsam sunt maiores</p>
+                <div class="input-wrapper my-2"> <input type="email" name="email" id="email" placeholder="Your Mail"> </div>
+                <a href="#" class="btn btn-info"><b>SUBSCRIBE</b></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="bottomBar">
+    <div class="container py-4"> 
+        <div class="row">
+            <div class="col-md-6"><h6>© 2022 <span class="text-warning">eduCare</span> All Rights Reserved</h6></div>
+            <div class="col-md-6 links">
+                <h6>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+                    <!--  js code start from here  -->
+
+<script>
+            // menu show or hide
+document.querySelector("#openNav").addEventListener("click", function(){
+    document.querySelector(".menuList").classList.toggle("showMenu");
+    document.querySelector(".ham1").classList.toggle("f-ham");
+    document.querySelector(".ham2").classList.toggle("s-ham");
+    document.querySelector(".ham3").classList.toggle("t-ham");
+
+});
+
+</script>

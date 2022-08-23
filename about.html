@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | eduCare</title>
+    <link rel="shortcut icon" href="img/fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/scrollFunction.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+                <!-- topbar -->
+<div id="topbar" class="topbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <ul>
+                    <li><i class="bi bi-telephone-fill"></i> +1 212-226-3126</li>
+                    <li><i class="bi bi-geo-alt-fill"></i> 457 Mott Street,NY 10013</li>
+                    <li><i class="bi bi-clock-fill"></i> Mon - Sat 8.00 - 18.00</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 text-end social">
+                <a target="_blank" href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a target="_blank" href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                <a target="_blank" href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a target="_blank" href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- header section -->
+<header>
+    <div id="navbar" class="navbar bg-white border-bottom">
+        <div class="container">
+            <a href="index.html" class="logo" width="150px"> <img src="img/logo.svg" alt="Logo" width="100%"> </a>
+            <ul class="menuList me-auto">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Courses</a>
+                    <ul class="subMenu">
+                        <li><a href="course-details.html">Course 1</a></li>
+                        <li><a href="course-details.html">Course 2</a></li>
+                        <li><a href="course-details.html">Course 3</a></li>
+                        <li><a href="course-details.html">Course 4</a></li>
+                        <li><a href="course-details.html">Course 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Pages</a>
+                    <ul class="subMenu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cart.html">cart</a></li>
+                        <li><a href="404error.html">Page Error</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="zoom.html">Zoom Meetings</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="course-details.html">Course Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Shop</a>
+                    <ul class="subMenu">
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="shop.html">Product Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-items ms-auto">
+                <div class="item">
+                    <button onclick="document.querySelector('.searchBar').style.display='block'"> <i class="bi bi-search"></i> </button>
+                    <div class="searchBar">
+                        <div class="form">
+                            <span onclick="document.querySelector('.searchBar').style.display='none'"><i class="bi bi-x-square"></i></span>
+                            <input type="search" name="search" placeholder="Search">
+                            <button><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item cart">
+                    <a href="cart.html" title="Cart" class="position-relative">
+                        <i class="bi bi-cart4"></i>
+                        <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-primary">0</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="form">
+                        <input type="search" name="search" placeholder="Search">
+                        <button><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+                <div class="item"><a href="login.html" title="Login"><i class="bi bi-person-fill"></i></a></div>
+            </div>
+            <button id="openNav">
+                <div id="ham" stat="open" class="hamburger-in">
+                    <div id="ham1" class="ham1"></div>
+                    <div id="ham2" class="ham2"></div>
+                    <div id="ham3" class="ham3"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+</header>
+
+                    <!-- banner section -->
+<div id="banner">
+    <h6><a href="index.html">Home</a> / <span>About</span></h6>
+    <h1><b>Our Mission is to Provide a World-class Education</b></h1>
+</div>
+
+                    <!-- main section start here-->
+<section id="main">
+    <div class="container">
+        <div style="max-width: 500px; margin: auto; text-align: center;">
+            <h6 class="text-primary">START TO SUCCESS</h6>
+            <h1>A Large Range of Learning Paths to Match Goals</h1>
+        </div>
+        <div class="images">
+            <ul>
+                <li class="scroll-element js-scroll fade-in-bottom">
+                    <img src="img/about1.jpg" alt="image" width="100%">
+                    <img src="img/pertner-logo-5.jpg" alt="image" class="smallImg">
+                </li>
+                <li class="scroll-element js-scroll fade-in-top"><img src="img/about2.jpg" alt="image" width="100%"></li>
+                <li class="scroll-element js-scroll slide-in-bottom"><img src="img/about3.jpg" alt="image" width="100%"></li>
+                <li class="scroll-element js-scroll fade-in-right"><img src="img/about4.jpg" alt="image" width="100%"></li>
+                <li class="scroll-element js-scroll slide-in-top"><img src="img/about5.jpg" alt="image" width="100%"></li>
+                <li class="scroll-element js-scroll fade-in-left"><img src="img/about6.jpg" alt="image" width="100%"></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2><b>How it Works</b></h2>
+                <p>Et animi architecto magnam illum iste ab laudantium exercitationem veritatis nihil voluptatum repellat sapiente adipisci reiciendis, fuga fugit harum, amet tenetur</p>
+                <div class="card scroll-element js-scroll slide-in-right py-3 px-4">
+                    <div class="row">
+                        <div class="col-md-2 p-3 text-center"> <i class="bi bi-person-plus fs-1 text-primary"></i> </div>
+                        <div class="col-md-10">
+                            <h4 class="mb-2">Create Account</h4>
+                            <p>Incidunt, temporibus. Voluptate error dolorum iure voluptatem harum dignissimos blanditiis nihil eaque</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card active scroll-element js-scroll slide-in-left my-3 py-3 px-4">
+                    <div class="row">
+                        <div class="col-md-2 p-3 text-center"> <i class="bi bi-card-checklist fs-1"></i> </div>
+                        <div class="col-md-10">
+                            <h4 class="mb-2">Select Course</h4>
+                            <p>Incidunt, temporibus. Voluptate error dolorum iure voluptatem harum dignissimos blanditiis nihil eaque</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card scroll-element js-scroll slide-in-right py-3 px-4">
+                    <div class="row">
+                        <div class="col-md-2 p-3 text-center"> <i class="bi bi-check2-circle fs-1 text-primary"></i> </div>
+                        <div class="col-md-10">
+                            <h4 class="mb-2">Enjoy Your Courses</h4>
+                            <p>Incidunt, temporibus. Voluptate error dolorum iure voluptatem harum dignissimos blanditiis nihil eaque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-3">
+                <div class="aboutImg scroll-element js-scroll zoom-in">
+                    <img src="img/aboutwork.jpg" alt="worker" width="100%">
+                    <div class="btn" onclick="document.querySelector('.video').classList.add('videoShow')"><i class="bi bi-youtube"></i></div>
+                </div>
+            </div>
+            <div class="video">
+                <div class="main">
+                    <h6 class="text-end"><i class="bi bi-x-lg btn text-white" onclick="document.querySelector('.video').classList.remove('videoShow')"></i></h6>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RlSjWRPt9dU" title="How To Stay Motivated When Learning English" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                    <!-- end main section -->
+
+                    <!-- partner section start here-->
+<section id="partner">
+    <div class="container">
+        <div class="secTitle"><h1>Our Partners</h1></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6 p-5 mx-auto scroll-element js-scroll fade-in">
+                    <img src="img/pertner-logo-1.jpg" alt="Logo" title="Top Edu">
+                </div>
+                <div class="col-md-3 col-6 p-5 mx-auto scroll-element js-scroll fade-in">
+                    <img src="img/pertner-logo-2.jpg" alt="Logo" title="Edu One">
+                </div>
+                <div class="col-md-3 col-6 p-5 mx-auto scroll-element js-scroll fade-in">
+                    <img src="img/pertner-logo-3.jpg" alt="Logo" title="Edu Max">
+                </div>
+                <div class="col-md-3 col-6 p-5 mx-auto scroll-element js-scroll fade-in">
+                    <img src="img/pertner-logo-4.jpg" alt="Logo" title="Edu Hub">
+                </div>
+                <div class="col-md-3 col-6 p-5 mx-auto scroll-element js-scroll fade-in">
+                    <img src="img/pertner-logo-5.jpg" alt="Logo" title="Big Edu">
+                </div>
+                <div class="col-md-3 col-6 p-5 mx-auto scroll-element js-scroll fade-in">
+                    <img src="img/pertner-logo-6.jpg" alt="Logo" title="Safe Edu">
+                </div>
+                <div class="col-md-3 col-6 p-5 mx-auto scroll-element js-scroll fade-in">
+                    <img src="img/pertner-logo-7.jpg" alt="Logo" title="Edu Vast">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                    <!-- end partner section -->
+
+                    <!-- review section here -->
+<section id="review">
+    <div class="container">
+        <h1>What Our Customer Say About Us</h1>
+        <div class="slider-container text-center my-5">
+            <div class="item"><button class="leftSlide"><i class="bi bi-arrow-left-square"></i></button></div>
+            <div class="item sliders p-2">
+                <div class="slideItem active p-3">
+                    <i class="bi bi-chat-left-quote text-primary fs-1 mb-4 text-center"></i>
+                    <p>Obcaecati repellat sunt sed dolorem velit illum similique veritatis hic consequatur explicabo maiores amet sit accusamus libero quis ducimus eaque distinctio commodi accusantium culpa</p>
+                    <div class="my-3"><img src="img/client-1.jpg" alt="Client"></div>
+                    <h4>Gang Hung</h4>
+                    <p>Designer</p>
+                    <h6 class="text-warning">
+                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
+                    </h6>
+                    <div class="text-center">
+                        <i class="bi bi-circle-fill"></i>
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle"></i>
+                    </div>
+                </div>
+                <div class="slideItem p-3">
+                    <i class="bi bi-chat-left-quote text-primary fs-1 mb-4 text-center"></i>
+                    <p>Architecto earum eos accusamus voluptatem quod voluptate soluta a rem suscipit est expedita hic asperiores excepturi, nisi accusantium odit reprehenderit in delectus. Impedit ea vero quia</p>
+                    <div class="my-3"><img src="img/client-2.jpg" alt="Client"></div>
+                    <h4>Shing Teng</h4>
+                    <p>Doctor</p>
+                    <h6 class="text-warning">
+                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i> <i class="bi bi-star"></i> <i class="bi bi-star"></i>
+                    </h6>
+                    <div class="text-center">
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle-fill"></i>
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle"></i>
+                    </div>
+                </div>
+                <div class="slideItem p-3">
+                    <i class="bi bi-chat-left-quote text-primary fs-1 mb-4 text-center"></i>
+                    <p>Quis dolorum libero quaerat nemo in doloribus dignissimos consectetur id facilis dicta, consequuntur, pariatur facere illo nam cupiditate sequi repellendus voluptate tempore explicabo</p>
+                    <div class="my-3"><img src="img/client-3.jpg" alt="Client"></div>
+                    <h4>John Doe</h4>
+                    <p>Programmer</p>
+                    <h6 class="text-warning">
+                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i>
+                    </h6>
+                    <div class="text-center">
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle-fill"></i>
+                        <i class="bi bi-circle"></i>
+                    </div>
+                </div>
+                <div class="slideItem p-3">
+                    <i class="bi bi-chat-left-quote text-primary fs-1 mb-4 text-center"></i>
+                    <p>Fuga mollitia aperiam unde tempore reprehenderit. Quibusdam voluptates incidunt in perspiciatis dolores, debitis eaque necessitatibus velit totam harum numquam voluptatem impedit explicabo cum facere quam</p>
+                    <div class="my-3"><img src="img/client-4.jpg" alt="Client"></div>
+                    <h4>Lara</h4>
+                    <p>Writer</p>
+                    <h6 class="text-warning">
+                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i> <i class="bi bi-star"></i>
+                    </h6>
+                    <div class="text-center">
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle"></i>
+                        <i class="bi bi-circle-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="item"><button class="rightSlide"><i class="bi bi-arrow-right-square"></i></button></div>
+        </div>
+    </div>
+</section>
+                    <!-- end review section -->
+
+                    <!-- instructor section start here -->
+<section id="instructor">
+    <div class="container">
+        <div class="secTitle"><h1>Our Instructor</h1></div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="card scroll-element js-scroll fade-in-right">
+                    <img src="img/instructor-1.jpg" alt="instructor">
+                    <div class="wrapper">
+                        <div class="desc">
+                            <h3>John Kowalski</h3>
+                            <p>Founder & CEO</p>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="card scroll-element js-scroll fade-in">
+                    <img src="img/instructor-2.jpg" alt="instructor">
+                    <div class="wrapper">
+                        <div class="desc">
+                            <h3>Richard Davidi</h3>
+                            <p>Teaches Filmmaking</p>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="card scroll-element js-scroll fade-in-left">
+                    <img src="img/instructor-3.jpg" alt="instructor">
+                    <div class="wrapper">
+                        <div class="desc">
+                            <h3>Marti Scorsese</h3>
+                            <p>Course Researcher</p>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="card scroll-element js-scroll fade-in-right">
+                    <img src="img/instructor-4.jpg" alt="instructor">
+                    <div class="wrapper">
+                        <div class="desc">
+                            <h3>Antonia Craighton</h3>
+                            <p>Co-founder of company</p>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="card scroll-element js-scroll fade-in">
+                    <img src="img/instructor-5.jpg" alt="instructor">
+                    <div class="wrapper">
+                        <div class="desc">
+                            <h3>Olivia Woodson</h3>
+                            <p>International Consultant</p>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="card scroll-element js-scroll fade-in-left">
+                    <img src="img/instructor-6.jpg" alt="instructor">
+                    <div class="wrapper">
+                        <div class="desc">
+                            <h3>Merry Smith</h3>
+                            <p>Marketing Manager</p>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                    <!-- end instructor section -->
+
+                    <!-- footer section -->
+<footer class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 p-3">
+                <img src="img/logo.svg" alt="Logo" width="150px" class="mb-4">
+                <p>Theodore Lowe, Ap #867-859 Sit Rd, Azusa New York</p>
+                <p class="fs-5"><i class="bi bi-telephone-fill"></i> <a href="tel:+(702) 123-1478">+(702) 123-1478</a></p>
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:info@company.com">info@company.com</a></p>
+                <div class="social mt-4">
+                    <a target="_blank" href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a target="_blank" href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a target="_blank" href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a target="_blank" href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 links p-3">
+                <h4>Company</h4>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">About Us</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Resource Center</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Careers</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Instructor</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Become A Teacher</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 links p-3">
+                <h4>Categories</h4>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">All Courses</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Digital Marketing</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Design & Branding</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Storytelling & Voice Over</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">News & Blogs</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 subscribe p-3">
+                <h4>Get in Touch</h4>
+                <p>Cum quisquam facere iure architecto! A aspernatur quod suscipit ipsam sunt maiores</p>
+                <div class="input-wrapper my-2"> <input type="email" name="email" id="email" placeholder="Your Mail"> </div>
+                <a href="#" class="btn btn-info"><b>SUBSCRIBE</b></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="bottomBar">
+    <div class="container py-4"> 
+        <div class="row">
+            <div class="col-md-6"><h6>© 2022 <span class="text-warning">eduCare</span> All Rights Reserved</h6></div>
+            <div class="col-md-6 links">
+                <h6>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+                    <!--  js code start from here  -->
+
+<script>
+            // menu show or hide
+document.querySelector("#openNav").addEventListener("click", function(){
+    document.querySelector(".menuList").classList.toggle("showMenu");
+    document.querySelector(".ham1").classList.toggle("f-ham");
+    document.querySelector(".ham2").classList.toggle("s-ham");
+    document.querySelector(".ham3").classList.toggle("t-ham");
+
+});
+
+            // review slider
+// auto slide
+setInterval (function(){
+if (document.getElementsByClassName("slideItem")[0].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[1].classList.add("active");
+	document.getElementsByClassName("slideItem")[0].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[1].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[2].classList.add("active");
+	document.getElementsByClassName("slideItem")[1].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[2].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[3].classList.add("active");
+	document.getElementsByClassName("slideItem")[2].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[3].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[0].classList.add("active");
+	document.getElementsByClassName("slideItem")[3].classList.remove("active");
+}
+}, 5000);
+
+// right button
+document.querySelector("button.rightSlide").addEventListener("click", function(){
+if (document.getElementsByClassName("slideItem")[0].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[1].classList.add("active");
+	document.getElementsByClassName("slideItem")[0].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[1].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[2].classList.add("active");
+	document.getElementsByClassName("slideItem")[1].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[2].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[3].classList.add("active");
+	document.getElementsByClassName("slideItem")[2].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[3].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[0].classList.add("active");
+	document.getElementsByClassName("slideItem")[3].classList.remove("active");
+}
+});
+//left button
+document.querySelector("button.leftSlide").addEventListener("click", function(){
+if (document.getElementsByClassName("slideItem")[0].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[3].classList.add("active");
+	document.getElementsByClassName("slideItem")[0].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[3].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[2].classList.add("active");
+	document.getElementsByClassName("slideItem")[3].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[2].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[1].classList.add("active");
+	document.getElementsByClassName("slideItem")[2].classList.remove("active");
+} else if (document.getElementsByClassName("slideItem")[1].classList.contains("active")) {
+	document.getElementsByClassName("slideItem")[0].classList.add("active");
+	document.getElementsByClassName("slideItem")[1].classList.remove("active");
+}
+});
+
+            // scroll function
+const scrollElements = document.querySelectorAll(".js-scroll");
+const elementInView = (el, dividend = 1) => {
+const elementTop = el.getBoundingClientRect().top;
+return (
+	elementTop <=
+    (window.innerHeight || document.documentElement.clientHeight) / dividend
+	);
+};
+const elementOutofView = (el) => {
+const elementTop = el.getBoundingClientRect().top;
+return (
+    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+	);
+};
+const displayScrollElement = (element) => {
+	element.classList.add("scrolled");
+};
+const hideScrollElement = (element) => {
+	element.classList.remove("scrolled");
+};
+const handleScrollAnimation = () => {
+	scrollElements.forEach((el) => {
+    if (elementInView(el, 1.25)) {
+		displayScrollElement(el);
+    } else if (elementOutofView(el)) {
+		hideScrollElement(el)
+    }
+  })
+}
+window.addEventListener("scroll", () => { 
+	handleScrollAnimation();
+});
+
+</script>

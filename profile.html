@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | eduCare</title>
+    <link rel="shortcut icon" href="img/fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+                <!-- topbar -->
+<div id="topbar" class="topbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <ul>
+                    <li><i class="bi bi-telephone-fill"></i> +1 212-226-3126</li>
+                    <li><i class="bi bi-geo-alt-fill"></i> 457 Mott Street,NY 10013</li>
+                    <li><i class="bi bi-clock-fill"></i> Mon - Sat 8.00 - 18.00</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 text-end social">
+                <a target="_blank" href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a target="_blank" href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                <a target="_blank" href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a target="_blank" href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- header section -->
+<header>
+    <div id="navbar" class="navbar bg-white border-bottom">
+        <div class="container">
+            <a href="index.html" class="logo" width="150px"> <img src="img/logo.svg" alt="Logo" width="100%"> </a>
+            <ul class="menuList me-auto">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Courses</a>
+                    <ul class="subMenu">
+                        <li><a href="course-details.html">Course 1</a></li>
+                        <li><a href="course-details.html">Course 2</a></li>
+                        <li><a href="course-details.html">Course 3</a></li>
+                        <li><a href="course-details.html">Course 4</a></li>
+                        <li><a href="course-details.html">Course 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Pages</a>
+                    <ul class="subMenu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cart.html">cart</a></li>
+                        <li><a href="404error.html">Page Error</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="zoom.html">Zoom Meetings</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="course-details.html">Course Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Shop</a>
+                    <ul class="subMenu">
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="shop.html">Product Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-items ms-auto">
+                <div class="item">
+                    <button onclick="document.querySelector('.searchBar').style.display='block'"> <i class="bi bi-search"></i> </button>
+                    <div class="searchBar">
+                        <div class="form">
+                            <span onclick="document.querySelector('.searchBar').style.display='none'"><i class="bi bi-x-square"></i></span>
+                            <input type="search" name="search" placeholder="Search">
+                            <button><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item cart">
+                    <a href="cart.html" title="Cart" class="position-relative">
+                        <i class="bi bi-cart4"></i>
+                        <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-primary">0</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="form">
+                        <input type="search" name="search" placeholder="Search">
+                        <button><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+                <div class="item"><a href="login.html" title="Login"><i class="bi bi-person-fill"></i></a></div>
+            </div>
+            <button id="openNav">
+                <div id="ham" stat="open" class="hamburger-in">
+                    <div id="ham1" class="ham1"></div>
+                    <div id="ham2" class="ham2"></div>
+                    <div id="ham3" class="ham3"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+</header>
+
+                    <!-- banner section -->
+<div id="banner">
+    <h1><b>Profile</b></h1>
+</div>
+
+                    <!-- main section start here-->
+<section id="main">
+    <div class="container">
+        <div class="profile row">
+            <div class="col-lg-6 p-3">
+                <img src="img/profile.jpg" alt="Profile">
+            </div>
+            <div class="col-lg-6 p-3">
+                <h2><b>John Kowalski</b></h2>
+                <h4 class="my-4">
+                    <span class="text-primary me-3">Special Asssistant</span>   <br>
+                    <span class="text-warning fs-6">
+                        <i class="bi bi-star-fill"></i>    <i class="bi bi-star-fill"></i>    <i class="bi bi-star-fill"></i>    <i class="bi bi-star-fill"></i>    <i class="bi bi-star"></i>
+                    </span>
+                    <span class="fs-6 ms-2">4.35</span>
+                </h4>
+                <p class="text-muted">Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti bulum a nec odio aea the dumm ipsumm ipsum that dolocons rsus suada and fadolorit consectetur elit. All the Lorem Ipsum generators on the Internet tend repeat predefined chunks dummt necessary, making this the first true dummy generator on the Internet. combined Lorem Ipsum looks dummy text reasonable.</p>
+                <p class="my-4 text-muted">Email: <strong class="text-dark">john123@demo.com</strong></p>
+                <div class="social">
+                    <ul>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="#"><i class="bi bi-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="tabs mt-5">
+            <li class="tab-link current" data-tab="tab-1">Overview</li>
+            <li class="tab-link" data-tab="tab-2">Course</li>
+            <li class="tab-link" data-tab="tab-3">Review</li>
+        </ul>
+        <hr class="text-muted mb-4">
+    <!-- overview -->
+        <div id="tab-1" class="tab-content current">
+            <div class="row">
+                <div class="col-lg-4 p-2">
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="col-3 text-center"><i class="bi bi-check2-circle text-primary fs-1"></i></div>
+                            <div class="col-9 text-start">
+                                <h2 class="text-primary">02</h2>
+                                <h5>Total Courses</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 p-2">
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="col-3 text-center"><i class="bi bi-people text-danger fs-1"></i></div>
+                            <div class="col-9 text-start">
+                                <h2 class="text-danger">11</h2>
+                                <h5>Enrolled Students</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 p-2">
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="col-3 text-center"><i class="bi bi-bookmark-star text-warning fs-1"></i></div>
+                            <div class="col-9 text-start">
+                                <h2 class="text-warning">18</h2>
+                                <h5>Total Reviews</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- course -->
+        <div id="tab-2" class="tab-content">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/student-marketing.jpg" alt="Student" width="100%">
+                        <div class="p-3">
+                            <b class="my-3 text-info">- MARKETING</b>
+                            <h3>Nutrition: Build Your Perfect Diet & Meal Plan</h3>
+                            <h5 class="my-3">John Kowalski</h5>
+                            <h6 class="text-muted mb-4">
+                                <span class="me-4"><i class="bi bi-journal-text"></i> 6 Lessons</span>
+                                <span><i class="bi bi-laptop"></i> Online Class</span>
+                            </h6>
+                            <hr>
+                            <h5>$50
+                                <span class="float-end"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i></span>
+                            </h5>
+                        </div>
+                    <!-- hover content -->
+                        <div class="card hover-content px-4 py-5 bg-primary text-light">
+                            <i class="bi bi-heart"></i>
+                            <b>- MARKETING</b>
+                            <h4 class="my-2">Nutrition: Build Your Perfect Diet & Meal Plan</h4>
+                            <h6>John Kowalski
+                                <span class="float-end"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i></span>
+                            </h6>
+                            <p>Learn How To Build The Perfect Diet & Meal Plan For Improved Health, Better Weight Loss And More Muscle Gains Hi, I'm Felix Harder fitness and dieting coach and amazon best</p>
+                            <ul>
+                                <li><i class="bi bi-list-nested"></i> All Levels</li>
+                                <li><i class="bi bi-journal-text"></i> 6 Lessons</li>
+                                <li><i class="bi bi-laptop"></i> Online Class</li>
+                            </ul>
+                            <h4><a href="#" class="btn btn-outline-light">See Details</a> <span class="float-end">$50</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3">
+                    <div class="card p-5">
+                        <h1 class="mt-5">The World's Largest Selection of Online Courses</h1>
+                        <a href="#" class="btn btn-outline-primary p-2 me-5 mb-5 mt-3">Browse All Courses <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- review -->
+        <div id="tab-3" class="tab-content">
+            <p class="text-primary">Course: <a href="course-details.html" class="ms-3">Marketing</a></p>
+            <p class="text-warning"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i> <span class="ms-2 text-muted">4.5</span></p>
+            <p class="text-primary">10 Months Ago</p>
+            <p class="mt-5 text-muted">Dramatically develop compelling models before emerging internal or "organic" sources.</p>
+        </div>
+    </div>
+</section>
+        
+
+                    <!-- footer section -->
+<footer class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 p-3">
+                <img src="img/logo.svg" alt="Logo" width="150px" class="mb-4">
+                <p>Theodore Lowe, Ap #867-859 Sit Rd, Azusa New York</p>
+                <p class="fs-5"><i class="bi bi-telephone-fill"></i> <a href="tel:+(702) 123-1478">+(702) 123-1478</a></p>
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:info@company.com">info@company.com</a></p>
+                <div class="social mt-4">
+                    <a target="_blank" href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a target="_blank" href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a target="_blank" href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a target="_blank" href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 links p-3">
+                <h4>Company</h4>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">About Us</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Resource Center</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Careers</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Instructor</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Become A Teacher</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 links p-3">
+                <h4>Categories</h4>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">All Courses</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Digital Marketing</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Design & Branding</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">Storytelling & Voice Over</a></p>
+                <p><i class="bi bi-arrow-right"></i> <a href="#">News & Blogs</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 subscribe p-3">
+                <h4>Get in Touch</h4>
+                <p>Cum quisquam facere iure architecto! A aspernatur quod suscipit ipsam sunt maiores</p>
+                <div class="input-wrapper my-2"> <input type="email" name="email" id="email" placeholder="Your Mail"> </div>
+                <a href="#" class="btn btn-info"><b>SUBSCRIBE</b></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="bottomBar">
+    <div class="container py-4"> 
+        <div class="row">
+            <div class="col-md-6"><h6>© 2022 <span class="text-warning">eduCare</span> All Rights Reserved</h6></div>
+            <div class="col-md-6 links">
+                <h6>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+                    <!--  js code start from here  -->
+
+<script>
+
+            // menu show or hide
+document.querySelector("#openNav").addEventListener("click", function(){
+    document.querySelector(".menuList").classList.toggle("showMenu");
+    document.querySelector(".ham1").classList.toggle("f-ham");
+    document.querySelector(".ham2").classList.toggle("s-ham");
+    document.querySelector(".ham3").classList.toggle("t-ham");
+
+});
+
+            // tab menu
+$(document).ready(function(){
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+})
+
+</script>
