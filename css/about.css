@@ -82,9 +82,10 @@ header {position: sticky; left: 0; top: 0;  transition: all 1s; z-index: 10;}
 #main .images ul li:nth-child(3) img {margin-left: -50px;}
 #main .images ul li:nth-child(5) img {margin-left: 150px; margin-top: -150px; width: 300px;}
 #main .images ul li:nth-child(6) img {margin-top: -200px;}
-#main .video {position: fixed; top: 0; height: 100%; left: 0; z-index: 10; background: rgba(0, 0, 0, 0.5); transform: scale(0); transform-origin: top; transition: all 0.3s;}
-#main .videoShow {transform: scale(1);}
-#main .video .main {position: absolute; height: 50%; width: 60%; top: 25%; left: 20%;}
+#main .video {position: fixed; top: 0; height: 0px; left: 0; z-index: 10; background: rgba(0, 0, 0, 0.5); transition: all 0.3s;}
+#main .videoShow {height: 100%;}
+#main .video .main {position: absolute; height: 50%; width: 60%; top: 25%; left: 20%; display: none;}
+#main .video .main-show {display: block;}
 #main .video .main iframe { border: 5px solid #00a9dc;}
 #main .aboutImg {padding: 50px; position: relative;}
 #main .aboutImg img {border-radius: 50%;}
