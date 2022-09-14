@@ -166,12 +166,12 @@
             <div class="col-lg-6 p-3">
                 <div class="aboutImg scroll-element js-scroll zoom-in">
                     <img src="img/aboutwork.jpg" alt="worker" width="100%">
-                    <div class="btn" onclick="document.querySelector('.video').classList.add('videoShow')"><i class="bi bi-youtube"></i></div>
+                    <div class="btn" onclick="document.querySelector('.video').classList.add('videoShow'); document.querySelector('.video .main').classList.add('main-show')"><i class="bi bi-youtube"></i></div>
                 </div>
             </div>
             <div class="video">
                 <div class="main">
-                    <h6 class="text-end"><i class="bi bi-x-lg btn text-white" onclick="document.querySelector('.video').classList.remove('videoShow')"></i></h6>
+                    <h6 class="text-end"><i class="bi bi-x-lg btn text-white" onclick="document.querySelector('.video').classList.remove('videoShow'); document.querySelector('.video .main').classList.remove('main-show')"></i></h6>
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RlSjWRPt9dU" title="How To Stay Motivated When Learning English" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
